@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("pexels-asad-photo-maldives-3601453.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 8px 16px;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-content {
+    max-width: 1200px;
+    color: aliceblue;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    font-size: 18px;
+    margin-top: 20px;
+    max-width: 900px;
+}
+
+.main-content button {
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 12px 30px;
+    border-radius: 3px;
+    font-weight: 600;
+    color: lightseagreen;
+}
